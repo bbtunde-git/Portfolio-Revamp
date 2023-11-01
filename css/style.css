@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #3C6255;
+    --second-bg-color: #61876E;
     --text-color: #fff;
     --main-color: #0ef;
 }
@@ -39,7 +39,8 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background-image: linear-gradient(to right, #3C6255, #A6BB8D, #61876E, #A6BB8D, #3C6255);
+    /* background: #A6BB8D; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -321,8 +322,7 @@ span {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
+    background: #A6BB8D;
     border-radius: .8rem;
     margin: .7rem 0;
 }
